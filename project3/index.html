@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/modal.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <header class="header">
+            <h1>Rock Paper Scissors</h1>
+            <button id="restart" class="restart-btn">Restart Game</button>
+            <div id="score" class="score">
+            <p>Player: 0</p>
+            <p>Computer: 0</p>
+            </div>
+        </header>
+        <h2>Make Your Selection</h2>
+        <div class="choices">
+            <i id="rock" class="choice fa fa-car fa-10x"> <h1>Rock</h1></i>
+            <i id="paper" class="choice fa fa-cloud fa-10x"><h1>Paper</h1></i>
+            <i id="scissors" class="choice fa fa-user fa-10x"><h1>Scissors</h1></i>
+        </div>
+    </div>
+    
+    <!-----Modal-->
+    <div class="modal">
+        <div id="result" class="modal-content">
+            <h1 class="text-win">You Win!</h1>
+            <i class="fa fa-car fa-10x"></i>
+            <p>Computer Chose Rock</p>
+        </div>
+    </div>
+
+
+
+    <script src="main.js"></script>
+    
+</body>
+</html>
